@@ -1,0 +1,18 @@
+
+<p>
+  <strong>Subject:</strong>
+  <%= @card.subject %>
+</p>
+
+<p>
+  <strong>Front:</strong>
+  <%= @card.front %>
+</p>
+
+<p>
+  <strong>Back:</strong>
+  <%= @card.back %>
+</p>
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>
