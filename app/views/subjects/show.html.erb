@@ -2,7 +2,7 @@
 <ul>
   <% @subject.cards.each do |s| %>
     <h2><%= s.front %></h2>
-    <div><a><%= link_to "#{s.back}" %></a></div>
+    <div><h3><%= s.back %></h3></div>
 _______________________________________________
 
   <% end %>

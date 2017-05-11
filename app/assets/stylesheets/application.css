@@ -14,13 +14,13 @@
  *= require_self
  */
 
- a
+ h3
  {
      text-decoration: none;
      color: transparent;
  }
 
- a:hover
+ h3:hover
  {
      color: black;
  }
