@@ -1,7 +1,7 @@
 
 <p>
   <strong>Subject:</strong>
-  <%= @card.subject %>
+  <%= @card.subject.name %>
 </p>
 
 <p>
@@ -13,6 +13,3 @@
   <strong>Back:</strong>
   <%= @card.back %>
 </p>
-
-<%= link_to 'Edit', edit_card_path(@card) %> |
-<%= link_to 'Back', cards_path %>

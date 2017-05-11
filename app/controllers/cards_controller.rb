@@ -5,7 +5,7 @@ class CardsController < ApplicationController
   end
 
   def show
-    @card = Cards.find(params[:id])
+    @card = Card.find(params[:id])
   end
 
   def new
@@ -34,6 +34,6 @@ class CardsController < ApplicationController
 
   private
     def card_params
-      params.require(:card).permit(:subject, :front, :back)
+      params.require(:card).permit(:subject_name, :front, :back)
     end
 end
